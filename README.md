@@ -33,18 +33,14 @@ The EyeBook Reader we have made is designed as a web application meant for lapto
 
 ### Software
 
-**Post**
-| Property | Type | Description |
-| -------- | ---- | ----------- | 
-| objectID | String | unique id for the user post (default field) |
-| author | Pointer to User | image author |
-| image | File | image that user post | 
-| location | FIND HOW TO SAVE LOC ON PARSE | image that user post | 
-| title | String | title posted by author |
-| caption | String | image caption by author |
-| commentsCount | Number | number of comments posted to an image |
-| likesCount | Number | number of likes for post |
-| createdAt | DateTime | date when post is created (default field) |
+**Table 1: Decision Matrix**
+| Software      | Ease of Use | Features      | Supported |
+| ----------- | ----------- |
+| GazeCloudAPI      | **       | *       | ***       |
+| MediaPipe      | **       | **       | ***       |
+| OpenCV      | *       | ***       | ****       |
+| WebGazer.js      | ***       | *       | **       |
+
 The EyeBook Reader is a web application based on HTML5, CSS3, and JavaScript. Multiple eye tracking APIs where looked at for this application including GazeCloudAPI, MediaPipe, OpenCV, and WebGazer.js. WebGazer.js was chosen as it was the easiest to use for development of the web application. WebGazer.js is used for tracking eye movement, and allows the storage of x and y coordinates through a correlation map between eye position and screen coordinate position, which is later loaded into the regression model. This model is trained by assuming that the points the user clicks on the screen is also where the user is looking. This is used for to a first time initialization process and then continually for the user to reinforce and correct for errors in the prediction model. The WebGazer.js API adds a display of the webcam feed onto the top left of the screen and shows a dot where it believes the user is looking.
 To implement the interaction design we had to define both the region were the user will be looking and the delay for how long the use should look there. In the library page this was done by defining one eight of either side of the page as the selection area for a certain book. If the user look to the left after 1.5 seconds the book on the left was selected and vice versa. in that direction. The eBook page was divided between the left, middle, and right section. Looking in the left section for 0.5 seconds will flip the page left, similarly looking in the right section would flip the page right. The middle section would be where the user would be able to read the text without moving the page. All other interaction design features where implemented in a similar manner by receiving the x and y coordinates of where a user is looking through webGazer.js and registering how long they are looking in a certain region.
 
