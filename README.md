@@ -4,11 +4,11 @@
 1. [Overview](#1-Overview)
 2. [Goals and Motivations](#2-Goals-and-Motivations)
 3. [Design Process](#3-Design-Process)
-    1. [Interaction Plan](#31-Design-Process)
-    2. [Breakdown](#32-Design-Process)
+    1. [Interaction Plan](#31-Interaction-Plan)
+    2. [Breakdown](#32-Breakdown)
 4. [Implementation](#4-Implementation)
-    1. [Hardware](#41-Design-Process)
-    2. [Software](#42-Design-Process)
+    1. [Hardware](#41-Hardware)
+    2. [Software](#42-Software)
 6. [Example Use Case](#5-Example-Use-Case)
 
 ## 1. Overview
