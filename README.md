@@ -36,7 +36,11 @@ The EyeBook Reader we have made is designed as a web application meant for lapto
 **Table 1: Decision Matrix**
 | Software      | Ease of Use | Features      | Supported |
 | ----------- | ----------- | ----------- | ----------- | 
-| GazeCloudAPI      | ⭐️⭐️       | ⭐️       | ⭐️⭐️⭐️       |
+| GazeCloudAPI | ⭐️⭐️       | ⭐️       | ⭐️⭐️⭐️       |
+| MediaPipe   | ⭐️⭐️       | ⭐️⭐️       | ⭐️⭐️⭐️       |
+| OpenCV    | ⭐️       | ⭐️⭐️⭐️       | ⭐️⭐️⭐️⭐️       |
+| WebGazer.js     | ⭐️⭐️⭐️       | ⭐️       | ⭐️⭐️⭐️       |
+
 
 
 The EyeBook Reader is a web application based on HTML5, CSS3, and JavaScript. Multiple eye tracking APIs where looked at for this application including GazeCloudAPI, MediaPipe, OpenCV, and WebGazer.js. WebGazer.js was chosen as it was the easiest to use for development of the web application. WebGazer.js is used for tracking eye movement, and allows the storage of x and y coordinates through a correlation map between eye position and screen coordinate position, which is later loaded into the regression model. This model is trained by assuming that the points the user clicks on the screen is also where the user is looking. This is used for to a first time initialization process and then continually for the user to reinforce and correct for errors in the prediction model. The WebGazer.js API adds a display of the webcam feed onto the top left of the screen and shows a dot where it believes the user is looking.
