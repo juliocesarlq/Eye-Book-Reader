@@ -36,7 +36,9 @@ The EyeBook Reader we have made is designed as a web application meant for lapto
 **Table 1: Decision Matrix**
 | Software      | Ease of Use | Features      | Supported |
 | ----------- | ----------- |
-| GazeCloudAPI      | **       | *       | ***       |
+| GazeCloudAPI      | ⭐️⭐️       | ⭐️       | ⭐️⭐️⭐️       |
+
+
 | MediaPipe      | **       | **       | ***       |
 | OpenCV      | *       | ***       | ****       |
 | WebGazer.js      | ***       | *       | **       |
