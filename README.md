@@ -1,16 +1,16 @@
 # WebEye - Eye controlled e-book reader web application 👁📖💻
 
 ## Table of Contents
-1. [1. Overview](#Overview)
-1. [2. Goals and Motivations](#Goals-and-Motivations)
-1. [3. Design Process](#Design-Process)
-1. [4. Implementation](#Implementation)
-1. [5. Example Use Case](#Example-Use-Case)
+1. [Overview](#Overview)
+1. [Goals and Motivations](#Goals-and-Motivations)
+1. [Design Process](#Design-Process)
+1. [Implementation](#Implementation)
+1. [Example Use Case](#Example-Use-Case)
 
-## 1.Overview
+## 1.0 Overview
 The Eye-Book-Reader is a web application that uses an eye tracking API to enhance user interaction. The primary interaction being the support for an flipping through the book’s pages that follows the user eyes as they look to the left or to the right. The eye tracking API used was WebGazer.js as it was easiest to use for development of the application. WebGazer.js works by training a prediction model and webcam feed to track the location on the screen the user is looking. The model is trained by assuming that when a user clicks they are also looking at that location, this can be used to initiate the model and to help correct the model during use of the application. This model is saved between sessions so initiation has to only be done once. This application will thus be able to allow the reading of eBooks without hands on interaction. Applications of the EyeBook Reader could include the reading of a cooking book while cooking and maybe even allow people that are limited or unable to use input devices such as mouse and keyboard to also be able to access eBooks.
 
-## 2.Goals and Motivations
+## 2. Goals and Motivations
 We were tasked with building an ebook reader web application that is hooked up to a eye tracking system as part of the user interface, the EyeBook Reader. The eye tracking system was utilized to perform tasks such as book selection and navigating the book pages. This is intended to be an easier method for the user to use than having to actively navigate the page with the mouse, as the page will move down when the user looks down and vice versa. So as the user is reading the EyeBook Reader will scroll along to allow the user to continue reading without having additional input, thus facilitating a smoother reading experience.
 
 ## 3.Design Process
