@@ -5,7 +5,7 @@
 1. [Goals and Motivations](#2-Goals-and-Motivations)
 1. [Design Process](#3-Design-Process)
     1. [Interaction Plan](#3-Design-Process)
-    1. [Interaction Plan](#3-Design-Process)
+    2. [Interaction Plan](#3-Design-Process)
 1. [Implementation](#4-Implementation)
 1. [Example Use Case](#5-Example-Use-Case)
 
@@ -17,7 +17,7 @@ We were tasked with building an ebook reader web application that is hooked up t
 
 ## 3. Design Process
 
-### 3.1 Interaction Plan
+### i. Interaction Plan
 **Book Reading Page**
 ![Figure 1: Interaction Design Plan - Book Reading Page](/int2.jpeg?raw=true "Figure 1: Interaction Design Plan - Book Reading Page")
 **Library Page**
