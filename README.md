@@ -2,12 +2,14 @@
 
 ## Table of Contents
 1. [Overview](#1-Overview)
-1. [Goals and Motivations](#2-Goals-and-Motivations)
-1. [Design Process](#3-Design-Process)
+2. [Goals and Motivations](#2-Goals-and-Motivations)
+3. [Design Process](#3-Design-Process)
     1. [Interaction Plan](#3-Design-Process)
-    2. [Interaction Plan](#3-Design-Process)
-1. [Implementation](#4-Implementation)
-1. [Example Use Case](#5-Example-Use-Case)
+    2. [Breakdown](#3-Design-Process)
+4. [Implementation](#4-Implementation)
+    1. [Hardware](#3-Design-Process)
+    2. [Software](#3-Design-Process)
+6. [Example Use Case](#5-Example-Use-Case)
 
 ## 1. Overview
 The Eye-Book-Reader is a web application that uses an eye tracking API to enhance user interaction. The primary interaction being the support for an flipping through the book’s pages that follows the user eyes as they look to the left or to the right. The eye tracking API used was WebGazer.js as it was easiest to use for development of the application. WebGazer.js works by training a prediction model and webcam feed to track the location on the screen the user is looking. The model is trained by assuming that when a user clicks they are also looking at that location, this can be used to initiate the model and to help correct the model during use of the application. This model is saved between sessions so initiation has to only be done once. This application will thus be able to allow the reading of eBooks without hands on interaction. Applications of the EyeBook Reader could include the reading of a cooking book while cooking and maybe even allow people that are limited or unable to use input devices such as mouse and keyboard to also be able to access eBooks.
@@ -17,7 +19,7 @@ We were tasked with building an ebook reader web application that is hooked up t
 
 ## 3. Design Process
 
-### i. Interaction Plan
+### 3.1 Interaction Plan
 **Book Reading Page**
 ![Figure 1: Interaction Design Plan - Book Reading Page](/int2.jpeg?raw=true "Figure 1: Interaction Design Plan - Book Reading Page")
 **Library Page**
