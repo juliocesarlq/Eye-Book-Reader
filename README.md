@@ -17,7 +17,9 @@ We were tasked with building an ebook reader web application that is hooked up t
 ## Design Process
 ### Interaction Plan
 **Book Reading Page**
+*Book Reading Page*
 ![Figure 1: Interaction Design Plan - Book Reading Page](/int2.jpeg?raw=true "Figure 1: Interaction Design Plan - Book Reading Page")
+####Book Reading Page*
 ![Figure 2: Interaction Design Plan - Library Page](/int1.jpeg?raw=true "Figure 2: Interaction Design Plan - Library Page")
 
 ### Breakdown
