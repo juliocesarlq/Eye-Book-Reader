@@ -4,7 +4,8 @@
 1. [Overview](#1-Overview)
 2. [Goals and Motivations](#2-Goals-and-Motivations)
 3. [Design Process](#3-Design-Process)
-    1.[Interaction Plan](#3-Design-Process)
+    1. [Interaction Plan](#3-Design-Process)
+    2. [Interaction Plan](#3-Design-Process)
 5. [Implementation](#4-Implementation)
 6. [Example Use Case](#5-Example-Use-Case)
 
