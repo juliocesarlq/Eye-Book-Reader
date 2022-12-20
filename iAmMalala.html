@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<title> I Am Malala </title>
+
+
+    <!-- Styling iFrame for when flipping page -->
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+        }
+        /* iFrame rate of transition and size. */
+        iframe { 
+            transition: transform 400ms;
+            width: 50vw;
+            height: 100vh;
+        }
+        /* iFrame position change. */
+        iframe.left {
+            transform: translateX(-100vw);
+        }
+        /* iFrame position change. */
+        iframe.right {
+            transform: translateX(100vw);
+        }
+        iframe.next {
+            display: none;
+        }
+
+    </style>
+
+    <!-- Webgazer implementation-->
+	<script src="js/webgazer.js" defer></script>
+    <!-- Javascript file with eyereading implementation-->
+	<script src="js/script.js" defer></script>	
+</head>
+
+
+<body>
+
+    <div>
+
+    </div>
+
+
+    <!-- Bootstrap implementation-->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
