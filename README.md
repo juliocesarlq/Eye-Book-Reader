@@ -1,4 +1,4 @@
-# WebEye - Eye controlled e-book reader web application 👁📖💻
+# WebEye - Eye controlled e-book reader web application 👁 📖 💻
 
 ## Table of Contents
 1. [Overview](#1-Overview)
