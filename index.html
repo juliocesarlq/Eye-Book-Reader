@@ -34,17 +34,65 @@
 
 <body>
 
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom ">
+		<div class="container-fluid justify-content-center">
+		  <a class="navbar-brand" href="#">Scroll Down</a>
+		</div>
+	</nav>
+
 	<div class="px-4 py-5 my-5 text-center">
 	<h1 style="font-size: 120px;">👁 📖 💻</h1>
     <h1 class="display-5 fw-bold">WebEye - eye controlled ebook reader</h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">a web application that uses eye tracking technology to simultaneously enhance and simplify user interaction. The primary interaction being the support for flipping through the book's pages that follows the user eyes as they look to the left or to the right.</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Get Started</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">View Instructions</button>
+        <button onclick="location.href='#top-scroll'" type="button" class="btn btn-primary btn-lg px-4 gap-3">Get Started</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4" data-bs-toggle="modal" data-bs-target="#exampleModal"> View Instructions</button>
       </div>
     </div>
   </div>
+
+    <!-- Modal -->
+
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered">
+		  <div class="modal-content">
+	
+			<div class="modal-header">
+			  <p class="display-5">Instructions</p>
+			</div>
+		 
+			<div class="modal-body">
+			  <h2>Library Page - please read the following instruction</h2>
+			  <h5>All grey zones are action zones - look in that area to perform its corresponding action</h5>
+			  <img src="img/library-page.jpeg"   class="card-img-top" alt="Hollywood Sign on The Hill"/>
+
+			  <h2 class="mt-3">Book Page - please read the following instruction</h2>
+			  <h5>All grey zones are action zones - look in that area to perform its corresponding action</h5>
+			  <img src="img/book-page.jpeg"   class="card-img-top" alt="Hollywood Sign on The Hill"/>
+	
+			</div>
+	
+			<div class="modal-footer">
+			  <h4>We are in the process of improving the platform by adding instructions on how to recalibrate, introducing bookmarking as a feature, redesigning the reading page, and enabling users to upload their own titles.</h4>
+			  <h5>If you have questions or issues feel free to reach us at juliocesarlopez@me.com or juniajacinto7@yahoo.com</h5>
+			  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+	
+			
+			</div>
+		  
+		  </div>
+		</div>
+	  </div>
+	
+	  <!-- Modal END -->
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" id="top-scroll">
+	<div class="container-fluid justify-content-center">
+	  <a class="navbar-brand" href="#">Scroll Up</a>
+	</div>
+  </nav>
 
   <div class="container">
 	<div class="row row-cols-1 row-cols-md-2 g-4">
